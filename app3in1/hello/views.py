@@ -12,4 +12,4 @@ def benicio(request):
     return HttpResponse("Hello, Benicio. You're at the hello index.")
     
 def greet(request, name):
-    return HttpResponse(f"Hello, {name}. You're at the hello index.")
+    return HttpResponse(f"Hello, {name.capitalize()}. You're at the hello index.")
