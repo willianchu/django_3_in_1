@@ -1,0 +1,11 @@
+{% extends "tasks/layout.html" %}
+
+{% block body %}
+  <h1>Add Task</h1>
+  <form action="/tasks" method="post">
+    <input type="text" name="name" placeholder="name">
+    <!-- <input type="text" name="description" placeholder="description"> -->
+    <input type="submit" value="Add">
+  </form> 
+{% endblock %}
+
