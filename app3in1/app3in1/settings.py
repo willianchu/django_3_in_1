@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'hello', # step 4.1 install the app
+    'hello', # step 3 install the app
+    'mybirthday', # step 3 install the app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
