@@ -12,4 +12,6 @@ def benicio(request):
     return HttpResponse("Hello, Benicio. You're at the hello index.")
     
 def greet(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}. You're at the hello index.")
+    return render(request, "hello/greet.html", {
+        "name": name.capitalize()
+    })
